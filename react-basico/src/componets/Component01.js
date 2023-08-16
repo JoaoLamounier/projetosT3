@@ -1,6 +1,10 @@
 const Component01 = () => {
   return (
-    <div>Meu primeiro componente react</div>
+    <div>
+        <h2> Meu primeiro componente react</h2>
+    (console.log("teste"))
+    </div>
+    
   )
 }
 

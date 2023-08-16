@@ -4,7 +4,7 @@ import Component01 from './componets/Component01';
 
 function App() {
   return (
-    <div className="ReactBase">
+    <div className="reactBase">
       <h1>
         aprendendendo essa budega
       </h1>
