@@ -1,0 +1,7 @@
+ul.a {
+  list-style-type: circle;
+}
+li {
+  justify-content: left;
+  left: auto;
+}
