@@ -5,10 +5,10 @@ export const ManageList = () => {
 const [product] = useState(["Abajur", "TV", "Sofá", "Compiuter"])
 
 const [students, setStudents] = useState([
-    { id: 0 , registraation: 1212121, name: "Gunguin", age: 21},
-    { id: 1 , registraation: 2121212, name: "Mao Tse Tung", age:130},
-    { id: 2 , registraation: 1111110, name: "Gustavo", age:12},
-    { id: 3 , registraation: 2222220, name: "Bolsonaro JR", age: 27},
+    { id: 0 , registraation: 1212121, name: "Gunguin", age: 21, course: "ciencias da informação", semestre:1},
+    { id: 1 , registraation: 2121212, name: "Mao Tse Tung", age:130, course: "ciencias da informação", semestre:4},
+    { id: 2 , registraation: 1111110, name: "Gustavo", age:12, course: "ciencias da informação", semestre:1},
+    { id: 3 , registraation: 2222220, name: "Bolsonaro JR", age: 27, course: "ciencias da informação", semestre:3},
 ])
 
 const deleteRandomStudent = () => {
